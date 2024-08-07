@@ -338,7 +338,7 @@ create() {
             is_listen='"listen": "127.0.0.1"'
             ;;
         *)
-            is_listen='"listen": "0.0.0.0"'
+            is_listen='"listen": "127.0.0.1"'
             ;;
         esac
         is_sniffing='sniffing:{enabled:true,destOverride:["http","tls"]}'
